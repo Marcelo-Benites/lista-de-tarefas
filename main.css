@@ -15,7 +15,8 @@ body h1{
 .container{
     max-width: 460px;
     width: 100%;
-    margin: 0 auto;
+    height: 50%;
+    margin: 20% auto;
 }
 
 form{
@@ -53,6 +54,12 @@ form button{
     text-decoration: line-through;
 }
 
-#taskList li{
+ul{
+    margin-top: 25px;
+}
+
+#taskList li {
+    margin-top: 10px;
     font-size: 18px;
+    margin-left: 150px;
 }
